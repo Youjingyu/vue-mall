@@ -13,7 +13,7 @@ vue2 + vuex + vue-router + webpack + ES6 + axios + sass + flex + svg + node + mo
 
 ## 关于接口数据
 
-接口项目地址   [node-api](https://github.com/yucccc/node-api)  使用的是 node + mongodb
+接口项目地址   [node-api](https://github.com/Youjingyu/node-api)  使用的是 node + mongodb
 
 商品数据通过爬虫抓取写入数据库 (eventproxy + superagent) ，由于锤子手机的数据结构十分复杂并且页面是动态的，因此我通过转发包装简化了数据，但不影响正常业务逻辑，如果你发现部分商品不见了，有可能是锤子手机改变了数据结构.正常情况下不会存在这种问题，大可放心.
 
