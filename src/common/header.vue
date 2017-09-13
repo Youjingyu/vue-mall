@@ -346,7 +346,7 @@
       display: flex;
       align-items: center;
       > a {
-        background: url(/static/images/global-logo-red@2x.png) no-repeat 50%;
+        background: url(../../static/images/global-logo-red@2x.png) no-repeat 50%;
         background-size: cover;
         display: block;
         @include wh(50px, 40px);
@@ -444,7 +444,7 @@
           left: 8px;
           top: 0;
           @include wh(20px);
-          background: url(/static/images/account-icon@2x.32d87deb02b3d1c3cc5bcff0c26314ac.png) -155px 0;
+          background: url(../../static/images/account-icon@2x.32d87deb02b3d1c3cc5bcff0c26314ac.png) -155px 0;
           background-size: 240px 107px;
           transition: none;
         }
@@ -543,7 +543,7 @@
           display: block;
           @include wh(30px, 100%);
           content: " ";
-          background: url(/static/images/account-icon@2x.32d87deb02b3d1c3cc5bcff0c26314ac.png) 0 -22px;
+          background: url(../../static/images/account-icon@2x.32d87deb02b3d1c3cc5bcff0c26314ac.png) 0 -22px;
           background-size: 240px 107px;
           background-position: -150px -22px;
         }
@@ -789,7 +789,7 @@
       &:before {
         position: absolute;
         content: " ";
-        background: url(/static/images/account-icon@2x.32d87deb02b3d1c3cc5bcff0c26314ac.png) no-repeat -49px -43px;
+        background: url(../../static/images/account-icon@2x.32d87deb02b3d1c3cc5bcff0c26314ac.png) no-repeat -49px -43px;
         background-size: 240px 107px;
         @include wh(20px, 8px);
         top: -8px;
@@ -903,7 +903,7 @@
     top: 50%;
     width: 76px;
     height: 62px;
-    background: url("/static/images/cart-empty-new.png") no-repeat;
+    background: url("../../static/images/cart-empty-new.png") no-repeat;
     background-size: cover;
 
   }
